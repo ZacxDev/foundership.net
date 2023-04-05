@@ -1,0 +1,52 @@
+<section class="bg-themeWhite relative pb-24">
+  <div class="container mx-auto">
+    <header>
+      <nav class="mx-auto flex  items-center justify-between p-6 pb-0 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            {{ $img := resources.Get "images/Logo.svg" }}
+            <img class="w-auto" alt="logo" src="{{ $img.Permalink }}">
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Open main menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:justify-end lg:items-center lg:gap-x-12">
+          <a href="#whoWeAre" class="font-roboto text-xl font-normal leading-6 text-nav hover:text-black">Who we are</a>
+
+          <a href="#whatWeDo" class="font-roboto text-xl font-normal leading-6 text-nav hover:text-black">What we do</a>
+
+          <a href="#" class="font-roboto text-xl font-normal leading-6 text-nav hover:text-black">How it’s going</a>
+
+          <button
+            class="font-roboto bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-4 px-12">
+            Join</button>
+        </div>
+      </nav>
+    
+    </header>
+    <div class="grid grid-cols-1">
+      {{ $img := resources.Get "images/Blob.svg" }}
+      <img class="w-auto mx-auto" alt="Blob" src="{{ $img.Permalink }}">
+      <div class="absolute left-80	top-72 			text-center	">
+        <p   class="text-7xl font-raleway text-black font-normal	tracking-wide	leading-tight		">
+          The Next Generation of <br> <span class="text-primary">Digital-native Founders,<br> Builders, <span
+              class="text-black">and</span> Dreamers</span>
+        </p>
+        <p class="py-10 font-roboto text-xl text-black font-normal leading-8	">We are a globally distributed movement of
+          people who are building the next everything.<br>
+          We <span class="text-primary"> connect, collaborate, and support </span> each other to ensure we create the
+          best versions of our <br> products, ourselves, and the best community in the universe for people like us.</p>
+        <button class="font-roboto bg-primary text-white  font-semibold	text-xl	rounded-full	py-4 px-12 uppercase">
+          JOIN us</button>
+      </div>
+    </div>
+  </div>
+</section>
