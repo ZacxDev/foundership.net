@@ -1,7 +1,7 @@
 {{ define "main" }}
 <!-- brands -->
-<section class="bg-navyBlue py-20 ">
-  <div class="container mx-auto ">
+<section class="bg-navyBlue py-20">
+  <div class="container lg:px-10 mx-auto ">
     <p class="font-roboto text-center text-white text-lg pb-10">The most innovative founders and creators of this
       generation are
       members of Foundership. </p>
@@ -16,7 +16,7 @@
   </div>
 </section>
 <section id="whoWeAre" class="bg-themeWhite py-20 ">
-  <div class="container mx-auto ">
+  <div class="container lg:px-10 mx-auto ">
     <!-- who we are -->
     <p class="font-raleway text-navyBlue text-7xl pb-16	font-normal	">Who <span class="text-primary">we</span> are</p>
     <div class="grid grid-cols-2 ">
@@ -32,8 +32,9 @@
           unrivaled connections and resources. As a member of the Foundership community, you'll unlock an array of
           unparalleled benefits designed to supercharge your entrepreneurial journey.</p>
       </div>
-      <div class="bg-navyBlueLight rounded-3xl	">
-        <div class="grid grid-cols-3 gap-4 px-11 py-16">
+      <div class="bg-navyBlueLight rounded-3xl py-14	">
+        <div class="grid grid-cols-3 gap-y-14 ">
+          <!-- px-11 py-16 -->
           {{ $img1 := resources.Get "images/1.svg" }}
           {{ $img2 := resources.Get "images/2.svg" }}
           {{ $img3 := resources.Get "images/3.svg" }}
@@ -43,22 +44,57 @@
           {{ $img7 := resources.Get "images/7.svg" }}
           {{ $img8 := resources.Get "images/8.svg" }}
           {{ $img9 := resources.Get "images/9.svg" }}
-          <img src="{{ $img1.Permalink }}">
-          <img src="{{ $img2.Permalink }}">
-          <img src="{{ $img3.Permalink }}">
-          <img src="{{ $img4.Permalink }}">
-          <img src="{{ $img5.Permalink }}">
-          <img src="{{ $img6.Permalink }}">
-          <img src="{{ $img7.Permalink }}">
-          <img src="{{ $img8.Permalink }}">
-          <img src="{{ $img9.Permalink }}">
+          <div class="text-center">
+            <img class="inline" src="{{ $img1.Permalink }}">
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          <div class="text-center">
+            <img class="inline" src="{{ $img2.Permalink }}">
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img3.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img4.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img5.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img6.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img7.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img8.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
+          <div class="text-center">
+            <img class="inline" src="{{ $img9.Permalink }}">  
+            <p class="font-raleway text-navyBlueText font-semibold	text-base	uppercase pt-6">Digital  nomads </p>
+          </div>
+          
         </div>
       </div>
     </div>
     <!-- Expand Your Network -->
     <div class="grid grid-cols-2 my-44	">
       {{ $network := resources.Get "images/Network.svg" }}
-      <img src="{{ $network.Permalink }}">
+      <img class="mx-auto" src="{{ $network.Permalink }}">
       <div class="text-left w-3/5	mx-auto">
         <p class="font-raleway text-navyBlue text-4xl	 	font-semibold		"><span class="text-primary">Expand</span> Your
           Network </p>
@@ -66,7 +102,7 @@
           Meet and collaborate with exceptional entrepreneurs from around the globe, forging powerful alliances and
           friendships</p>
         <button
-          class="font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-4 px-12 uppercase">Learn
+          class="font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-3 px-12 uppercase">Learn
           more</button>
       </div>
     </div>
@@ -100,16 +136,16 @@
     </div>
     <div class="flex justify-center">
       <button
-        class="font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-4 px-12 uppercase">join
+        class="font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-2xl	rounded-full	py-5 px-20 uppercase">join
         foundership</button>
     </div>
   </div>
 </section>
 <section id="whatWeDo" class="bg-white py-32 ">
-  <div class="container mx-auto ">
+  <div class="container lg:px-10 mx-auto ">
     <!-- What we do -->
     <p class="font-raleway text-navyBlue text-7xl pb-16	font-normal	">What <span class="text-primary">we</span> do</p>
-    <div class="grid grid-cols-2 gap-44 mb-12">
+    <div class="grid lg:gap-28 grid-cols-2 gap-44 mb-12">
       <div class="bg-navyBlueLight rounded-2xl p-8 pb-12	">
         <p class="font-raleway text-black text-4xl pb-8	font-medium">Masterminds</p>
         <p class="font-roboto text-navyBlueText text-xl	font-normal leading-8	">
@@ -137,8 +173,8 @@
       </div>
     </div>
     <button
-      class="my-16  font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-4 px-12 uppercase">
-      Join</button>
+      class="my-16  font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-3 px-12 uppercase">
+      Join Now</button>
     <p class="pt-16 font-raleway text-navyBlue text-5xl pb-10	font-medium	">Testimonials</p>
     <p class="font-roboto text-navyBlueText text-lg pb-10	font-normal">After the session, each participant is contacted
       personally and directly to ensure they had a positive experience, collect feedback, and find out how we can best
