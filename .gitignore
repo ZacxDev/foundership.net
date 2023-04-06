@@ -51,3 +51,5 @@ Sessionx.vim
 
 # Coc configuration directory
 .vim
+
+.direnv
