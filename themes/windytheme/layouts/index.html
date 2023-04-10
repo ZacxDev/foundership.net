@@ -5,13 +5,17 @@
     <p class="font-roboto text-center text-white text-lg pb-10">The most innovative founders and creators of this
       generation are
       members of Foundership. </p>
-    <div class="flex justify-around align-center w-2/4 mx-auto">
-      {{ $micro := resources.Get "images/Micro.svg" }}
-      {{ $amazon := resources.Get "images/Amazon.svg" }}
+    <div class="flex justify-around items-center w-2/4 mx-auto">
+      {{ $iuLogo := resources.Get "images/iu-logo.png" }}
+      {{ $horensoLogo := resources.Get "images/horenso-logo.svg" }}
       {{ $tesla := resources.Get "images/Tesla.svg" }}
-      <img src="{{ $micro.Permalink }}">
-      <img src="{{ $amazon.Permalink }}" class="mx-30">
-      <img src="{{ $tesla.Permalink }}">
+      <a href="https:///innovationupstream.com" style="flex-basis: 25rem">
+        <img src="{{ $iuLogo.Permalink }}">
+      </a>
+      <a href="https:///horenso.co" style="flex-basis: 25rem">
+        <img src="{{ $horensoLogo.Permalink }}" class="mx-30">
+      </a>
+      <img src="{{ $tesla.Permalink }}" style="flex-basis: 25rem">
     </div>
   </div>
 </section>
