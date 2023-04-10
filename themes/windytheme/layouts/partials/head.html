@@ -1,5 +1,5 @@
 <head>
-  <title>Foundership - Entrepreneurship Community</title>
+  <title>{{ .Site.Title }}</title>
   {{ $a := resources.Get "/images/apple-touch-icon.png" }}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ $a.RelPermalink }}">
   {{ $b := resources.Get "/images/favicon-32x32.png" }}
@@ -31,7 +31,7 @@
   </script>
   {{ end }}
 
-  <meta property="og:title" content="Foundership - Entrepreneurship Community">
+  <meta property="og:title" content="{{ .Site.Title }}">
   <meta property="og:description" content="Foundership: A vibrant, global community of trailblazing entrepreneurs, forging connections, empowering innovation, and transforming the world. Join us!">
-  <meta property="og:image" content="{{ $a.RelPermalink }}">
+  <meta property="og:image" content="{{ $a.Permalink }}">
 </head>
