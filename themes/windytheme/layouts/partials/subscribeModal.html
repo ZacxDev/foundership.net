@@ -17,21 +17,32 @@
           </div>
         </div>
       </div>
-      <form id="subscribeForm">
-        <div class="flex justify-evenly items-center">
+      <div>
+        <form id="subscribeForm" class="flex justify-evenly items-center">
             <input id="emailInput" name="EMAIL" type="text" placeholder="Email" class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline basis-4/5">
             <div style="hidden">
               <input type="text" name="email_address_check" value="" class="hidden">
               <input type="hidden" name="locale" value="en">
               <input type="hidden" name="html_type" value="simple">
             </div>
-          <button id="submitEmail" type="button" class="bg-primary text-white font-bold py-2 px-4 rounded">Send</button>
+          <button id="submitEmail" type="button" class="bg-primary text-white font-bold py-2 px-4 rounded bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 text-sm text-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 inline-flex items-center">
+            <span id="submit-text-wrap">
+              Submit
+            </span>
+            <span id="spinner-wrap" class="hidden">
+            {{ partial "spinner" . }}
+            </span>
+          </button>
+        </form>
+        <div id="thankyouMessage" class="hidden">
+          <p>
+            Thanks for your interest, we will be in touch!
+          </p>
+          <button id="closeModal" type="button" class="bg-primary text-white font-bold py-2 px-4 rounded">Done</button>
         </div>
-      </form>
+      </div>
       <button id="closeModal" class="bg-transparent hover:bg-orange-500 text-orange-700 font-semibold py-2 px-4 absolute top-0 right-0 mt-2 mr-2">X</button>
     </div>
   </div>
-</div>
-<div id="thankyouModal" class="hidden">
 </div>
 
