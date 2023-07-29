@@ -1,10 +1,12 @@
 {
-  "name": "hugotails",
-  "version": "1.0.0",
-  "description": "- Text Tutorial: https://divrhino.com/articles/add-tailwindcss-to-hugo/ - Video Tutorial: https://www.youtube.com/watch?v=8Hr19zVHCbo",
+  "name": "@foundership/foundership.net",
+  "version": "0.1.0",
+  "description": "Hugo frontend for foundership.net",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tw": "npx tailwindcss -i ./themes/windytheme/assets/main.css -o ./themes/windytheme/assets/css/style.css",
+    "watch": "hugo server -D & chokidar '**/*.html' --ignore 'node_modules/**/*' -c 'npm run build-tw'"
   },
   "repository": {
     "type": "git",
@@ -16,12 +18,9 @@
   "bugs": {
     "url": "https://github.com/divrhino/hugotails/issues"
   },
-  "homepage": "https://github.com/divrhino/hugotails#readme",
+  "homepage": "foundership.net",
   "devDependencies": {
-    "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.1",
-    "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.0",
-    "tailwindcss": "^2.0.2"
+    "chokidar-cli": "^3.0.0",
+    "tailwindcss": "^3.3.2"
   }
 }

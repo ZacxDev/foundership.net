@@ -1,0 +1,37 @@
+<div id="modal" class="fixed z-50 inset-0 overflow-y-auto hidden ease-out duration-500 transition transform translate-y-0 slide-down flex justify-center items-center" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <div class="flex items-end justify-center pt-4 px-4 pb-20 text-center sm:block sm:p-0 basis-1/3">
+    <div id="overlay" class="fixed inset-0 bg-black opacity-75 transition-opacity" aria-hidden="true"></div>
+    <span class="hidden sm:inline-block sm:align-middle" aria-hidden="true">&#8203;</span>
+    <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:w-full px-4 py-3 sm:px-6 pb-8">
+      <div class="bg-white pt-5 pb-4 sm:pb-4">
+        <div class="sm:flex sm:items-start">
+          <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+            <h3 class="text-2xl leading-6 font-medium text-gray-900" id="modal-title">
+              We Can't Wait To Meet You
+            </h3>
+            <div class="mt-2">
+              <p class="text-sm text-black">
+                Enter your email below and we will personally reach out to introduce ourselves and the community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form id="subscribeForm">
+        <div class="flex justify-evenly items-center">
+            <input id="emailInput" name="EMAIL" type="text" placeholder="Email" class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline basis-4/5">
+            <div style="hidden">
+              <input type="text" name="email_address_check" value="" class="hidden">
+              <input type="hidden" name="locale" value="en">
+              <input type="hidden" name="html_type" value="simple">
+            </div>
+          <button id="submitEmail" type="button" class="bg-primary text-white font-bold py-2 px-4 rounded">Send</button>
+        </div>
+      </form>
+      <button id="closeModal" class="bg-transparent hover:bg-orange-500 text-orange-700 font-semibold py-2 px-4 absolute top-0 right-0 mt-2 mr-2">X</button>
+    </div>
+  </div>
+</div>
+<div id="thankyouModal" class="hidden">
+</div>
+

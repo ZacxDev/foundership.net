@@ -9,7 +9,7 @@
   {{ $d := resources.Get "/images/site.webmanifest" }}
   <link rel="manifest" href="{{ $d.RelPermalink }}">
 
-  {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+  {{ $styles := resources.Get "css/style.css" }}
   {{ if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,4 +34,5 @@
   <meta property="og:title" content="{{ .Site.Title }}">
   <meta property="og:description" content="Foundership: A vibrant, global community of trailblazing entrepreneurs, forging connections, empowering innovation, and transforming the world. Join us!">
   <meta property="og:image" content="{{ $a.Permalink }}">
+  <script src="/js/main.js"></script>
 </head>

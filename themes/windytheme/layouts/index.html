@@ -1,5 +1,6 @@
 {{ define "main" }}
 <!-- brand -->
+{{ partial "hero" }}
 <section class="bg-navyBlue py-20">
   <div class="lg:px-10 mx-auto ">
     <p class="font-roboto text-center text-white text-lg pb-10">The most innovative founders and creators of this
@@ -111,9 +112,7 @@
         <p class="font-roboto text-navyBlueText leading-8 font-normal	py-8	 text-xl	">
           Meet and collaborate with exceptional entrepreneurs from around the globe, forging powerful alliances and
           friendships</p>
-        <a
-          href="https://forms.gle/gVFGvqrnR6Lxwi1o7"
-          class="font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-3 px-12 uppercase">Learn more</a>
+        {{ partial "subscribeButton.html" . }}
       </div>
     </div>
     <!-- Crowdsource Solutions -->
@@ -145,11 +144,7 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <a
-        href="https://forms.gle/gVFGvqrnR6Lxwi1o7"
-        class="font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-2xl	rounded-full	py-5 px-20 uppercase">
-        join foundership
-      </a>
+    {{ partial "subscribeButton.html" . }}
     </div>
   </div>
 </section>
@@ -244,10 +239,8 @@
         </p>
       </div>
     </div>
-    <a
-      href="https://forms.gle/gVFGvqrnR6Lxwi1o7"
-      class="my-16  font-raleway bg-primary text-white flex justify-center align-center font-semibold	text-xl	rounded-full	py-3 px-12 uppercase">
-      Join Now</a>
+    {{ partial "subscribeButton.html" . }}
       {{/* partial "testimonial.html" . */}}
 </section>
+{{ partial "subscribeModal.html" . }}
 {{ end }}

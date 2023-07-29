@@ -1,0 +1,15 @@
+    {{ $img := resources.Get "images/Blob.svg" }}      
+    <div class="grid grid-cols-1">
+      <div class="text-center	bg-auto bg-center	bg-no-repeat pt-72 pb-80" style="background-image: url('{{$img.RelPermalink | safeURL }}')">
+        <p class="text-7xl font-raleway text-black font-normal	tracking-wide	leading-tight		">
+          The Next Generation of <br> <span class="text-primary">Digital-native Founders,<br> Builders, <span
+              class="text-black">and</span> World-Changers</span>
+        </p>
+        <p class="py-10 font-roboto text-xl text-black font-normal leading-8	">We are a globally distributed movement of
+          people who are building the next everything.<br>
+          We <span class="text-primary"> connect, collaborate, and support </span> each other to ensure we create the
+          best versions of our <br> products, ourselves, and the best community in the universe for people like us.</p>
+    {{ partial "subscribeButton.html" . }}
+      </div>
+  </div>
+
