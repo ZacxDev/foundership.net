@@ -1,0 +1,25 @@
+<div class="bg-white rounded-xl drop-shadow-2xl overflow-hidden m-3 basis-1/4 pt-4">
+  <div class="md:flex md:flex-col">
+    <div class="md:flex-shrink-0 flex justify-center">
+        {{ $img := resources.Get .Image }}
+      <img class="h-48 w-full object-contain md:w-48" src="{{ $img.Permalink }}" alt="{{ .Title }}">
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-indigo-500 font-semibold">{{ .Title }}</div>
+      <div class="mt-2">
+        {{ range .Tags }}
+        <span data-tag="{{ . }}" class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-white">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ if .Review }}
+      <p class="mt-2 text-gray-500">
+        {{ .Review }}
+      </p>
+      <p class="mt-2 italic text-xs">
+        - {{ .ReviewAuthor }}
+      </p>
+      {{ end }}
+    </div>
+  </div>
+</div>
+

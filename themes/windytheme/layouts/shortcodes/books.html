@@ -1,0 +1,11 @@
+<div class="flex justify-center">
+  <div class="flex flex-col items-center w-2/3">
+      {{ partial "books-hero" }}
+    <div class="flex flex-wrap justify-evenly gap-y-8 w-full">
+      {{ range .Site.Data.books }}
+          {{ partial "book-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+

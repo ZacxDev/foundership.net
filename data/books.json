@@ -1,0 +1,187 @@
+[
+    {
+        "Title": "The Lean Startup",
+        "Author": "Eric Reis",
+        "Image": "images/the-lean-startup.jpg",
+        "Review": "This was the first business book I ever read, and it's by far one of the most impactful.  It set me up with a simple and effective model for approaching new projects that I continue to use for both completely new projects/ideas, as well as new features/initiatives within existing projects.",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["MVP", "Business", "Good For Beginners", "Must-Read"]
+    },
+    {
+        "Title": "The 4-Hour Workweek",
+        "Author": "Tim Ferris",
+        "Image": "images/the-4-hour-work-week.jpg",
+        "Review": "I love this book.  At the time of writing this, it is the only book I've ever read twice.  This book was and is a frame-breaker for the \"I must be working on my businesses 24/7 or I am a lazy failure\" mental trap.  The ideas and frameworks in the book not only leveled up how I work and build businesses, but also how I live and design my life to optimize yes for productivity and business success, but also for happiness, new experiences, and personal fulfillment.",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Lifestyle", "Must-Read"]
+    },
+    {
+        "Title": "Built To Sell",
+        "Author": "John Warrillow",
+        "Image": "images/built-to-sell.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Must-Read", "Service Businesses", "Acquisition", "Key Person Risk"]
+    },
+    {
+        "Title": "Measure What Matters",
+        "Author": "John Doerr",
+        "Image": "images/measure-what-matters.webp",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Process", "Management"]
+    },
+    {
+        "Title": "The Future Of Humanity",
+        "Author": "Michio Kaku",
+        "Image": "images/the-future-of-humanity.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Futurology", "Science"]
+    },
+    {
+        "Title": "Good To Great",
+        "Author": "Jim Collins",
+        "Image": "images/good-to-great.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business"]
+    },
+    {
+        "Title": "That Will Never Work",
+        "Author": "Marc Randolph",
+        "Image": "images/that-will-never-work.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Management", "Culture"]
+    },
+    {
+        "Title": "The Startup Way",
+        "Author": "Eric Reis",
+        "Image": "images/the-startup-way.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business"]
+    },
+    {
+        "Title": "Lifespan",
+        "Author": "David Sinclair",
+        "Image": "images/lifespan.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Science", "Health", "Futurology"]
+    },
+    {
+        "Title": "Zero to One",
+        "Author": "Peter Thiel",
+        "Image": "images/zero-to-one.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business"]
+    },
+    {
+        "Title": "High Output Management",
+        "Author": "Andrew Grove",
+        "Image": "images/high-output-management.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Mangement", "Culture"]
+    },
+    {
+        "Title": "Who Not How",
+        "Author": "Dan Sullivan",
+        "Image": "images/who-not-how.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Culture", "Management"]
+    },
+    {
+        "Title": "No Rules Rules",
+        "Author": "Reed Hastings",
+        "Image": "images/no-rules-rules.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Management", "Culture"]
+    },
+    {
+        "Title": "Principles: Life and Work",
+        "Author": "Ray Dalio",
+        "Image": "images/principles.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Must-Read", "Culture", "Management", "Economics"]
+    },
+    {
+        "Title": "Principles For Navigating Big Debt Crises",
+        "Author": "Ray Dalio",
+        "Image": "images/principles-for-navigating-big-debt-crises.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Economics", "Investing"]
+    },
+    {
+        "Title": "Principles For Dealing With The Changing World Order: Why Nations Succeed of Fail",
+        "Author": "Ray Dalio",
+        "Image": "images/principles-for-dealing-with-the-changing-world-order.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Must-Read", "Economics"]
+    },
+    {
+        "Title": "$100M Offers",
+        "Author": "Alex Hormozi",
+        "Image": "images/100m-offers.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Acquisition"]
+    },
+    {
+        "Title": "The Cold Start Problem",
+        "Author": "Andrew Chen",
+        "Image": "images/the-cold-start-problem.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Marketplace"]
+    },
+    {
+        "Title": "Trillion Dollar Coach",
+        "Author": "Eric Schmidt",
+        "Image": "images/trillion-dollar-coach.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Must-Read", "Mental Models"]
+    },
+    {
+        "Title": "The Snowball",
+        "Author": "Alice Schroeder",
+        "Image": "images/the-snowball.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Economics", "Mental Models", "Investing"]
+    },
+    {
+        "Title": "The Dhandho Investor",
+        "Author": "Mohnish Pabrai",
+        "Image": "images/the-dhandho-investor.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Investing", "Mental Models"]
+    },
+    {
+        "Title": "The Outsiders",
+        "Author": "William Thorndike",
+        "Image": "images/the-outsiders.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Business", "Mental Models"]
+    },
+    {
+        "Title": "Economics in One Lesson",
+        "Author": "Henry Hazlitt",
+        "Image": "images/economics-in-one-lesson.jpg",
+        "Review": "",
+        "ReviewAuthor": "Zach Lowden",
+        "Tags": ["Economics", "Investing", "Mental Models"]
+    }
+]
+
