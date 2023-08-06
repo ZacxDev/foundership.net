@@ -30,7 +30,7 @@
   <div class="container lg:px-10 mx-auto ">
     <!-- who we are -->
     <p class="font-raleway text-navyBlue text-7xl pb-16	font-normal	">Who <span class="text-primary">we</span> are</p>
-    <div class="grid grid-cols-2 ">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
       <div class="mr-16 pr-10">
         <p class="font-raleway text-navyBlueText leading-10 font-light		 text-3xl pb-16	">Foundership is a
           groundbreaking
@@ -44,7 +44,7 @@
           unparalleled benefits designed to supercharge your entrepreneurial journey.</p>
       </div>
       <div class="bg-navyBlueLight rounded-3xl py-14	">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-14 ">
+        <div class="grid grid-cols-3 gap-y-14 ">
           <!-- px-11 py-16 -->
           {{ $img1 := resources.Get "images/1.svg" }}
           {{ $img2 := resources.Get "images/2.svg" }}
@@ -103,7 +103,7 @@
       </div>
     </div>
     <!-- Expand Your Network -->
-    <div class="grid grid-cols-2 my-44	">
+    <div class="grid grid-cols-1 lg:grid-cols-2 my-44">
       {{ $network := resources.Get "images/network.svg" }}
       <img class="mx-auto" src="{{ $network.Permalink }}">
       <div class="text-left w-3/5	mx-auto">
@@ -116,8 +116,12 @@
       </div>
     </div>
     <!-- Crowdsource Solutions -->
-    <div class="grid grid-cols-2 my-44	">
-      <div class="text-left w-3/5	">
+    <div class="grid grid-cols-1 lg:grid-cols-2 my-44	">
+      <div class="mx-auto">
+        {{ $solution := resources.Get "images/solution.svg" }}
+        <img src="{{ $solution.Permalink }}">
+      </div>
+      <div class="text-left w-3/5	mx-auto">
         <p class="font-raleway text-navyBlue text-4xl	 	font-semibold leading-snug					"><span
             class="text-primary">Crowdsource</span><br> Solutions </p>
         <p class="font-roboto text-navyBlueText leading-8 font-normal	pt-8	 text-xl	">
@@ -126,15 +130,13 @@
           of knowledge, with firsthand access to the experiences and expertise of those who've built successful
           businesses from the ground up.</p>
       </div>
-      <div class="mx-auto">
-        {{ $solution := resources.Get "images/solution.svg" }}
-        <img src="{{ $solution.Permalink }}">
-      </div>
     </div>
     <!-- Crowdsource Solutions -->
-    <div class="grid grid-cols-2 mt-44 mb-20	">
-      {{ $connection := resources.Get "images/connection.svg" }}
-      <img src="{{ $connection.Permalink }}">
+    <div class="grid grid-cols-1 lg:grid-cols-2 mt-44 mb-20	">
+      <div class="mx-auto">
+        {{ $connection := resources.Get "images/connection.svg" }}
+        <img src="{{ $connection.Permalink }}">
+      </div>
       <div class="text-left w-3/5	mx-auto">
         <p class="font-raleway text-navyBlue text-4xl	 	font-semibold leading-snug"><span class="text-primary">Forge
             Lasting </span><br> Connections </p>
@@ -152,7 +154,7 @@
   <div class="container lg:px-10 mx-auto ">
     <!-- What we do -->
     <p class="font-raleway text-navyBlue text-7xl pb-16	font-normal	">What <span class="text-primary">we</span> do</p>
-    <div class="grid md:gap-16 grid-cols-2 lg:gap-44 mb-12">
+    <div class="grid md:gap-16 grid-cols-1 lg:grid-cols-2 lg:gap-44 mb-12">
       <div class="bg-navyBlueLight rounded-2xl p-8 pb-12	">
         <p class="font-raleway text-black text-4xl pb-8	font-medium">Masterminds</p>
         <p class="font-roboto text-navyBlueText text-xl	font-normal leading-8	">
