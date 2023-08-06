@@ -9,12 +9,15 @@ We connect, collaborate, and support each other to ensure we create the best ver
 products, ourselves, and the best community in the universe for people like us.
       </p>
       {{ $img := resources.Get "images/message.svg" }}
-      <div class="flex justify-start items-center pt-16">
+      <a class="flex justify-start items-center pt-16" href="mailto:hello@foundership.net" target="_blank" rel="noopener noreferrer">
         <img class="w-auto" alt="Contact" src="{{ $img.Permalink }}">
-        <a href="mailto:hello@foundership.net">
-          <p class="font-roboto text-base	text-white font-normal pl-1">hello@foundership.net</p>
-        </a>
-      </div>
+        <p class="font-roboto text-base	text-white font-normal pl-1">hello@foundership.net</p>
+      </a>
+      {{ $img := resources.Get "images/x-twitter.svg" }}
+      <a class="flex justify-start items-center pt-4" href="https://twitter.com/Foundershipnet" target="_blank" rel="noopener noreferrer">
+        <img style="max-width: 28px;" alt="x" src="{{ $img.Permalink }}">
+        <p class="font-roboto text-base	text-white font-normal pl-1">@Foundershipnet</p>
+      </a>
     </div>
     </div>
 </section>
