@@ -1,7 +1,7 @@
 ---
 title: "I accidentally created a successful digital product"
 date: 2023-09-14T00:00:00Z
-author: "Priyanka "
+author: "Priyanka Shankar"
 tags: ["Business", "SaaS"]
 draft: false
 ---
